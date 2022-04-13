@@ -5,12 +5,12 @@
  */
 package main;
 
-import implement.Orchestrator;
 import java.io.IOException;
+
+
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Orchestrator start = new Orchestrator();
-        start.menu();
+        orchestrator.Orchestrator.start();
     }
 }
