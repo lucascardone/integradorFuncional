@@ -13,5 +13,5 @@ public class Constant {
     public static final String NOMBRE = "Giselle Marshall";
     public static final String EMAIL = "imperdiet.non@enim.org";
     public static final String EMAILCONT = "elite";
-    
+    public static final String ERROR = "El dato a buscar no existe o es incorrecto";
     }
