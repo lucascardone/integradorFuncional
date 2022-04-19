@@ -1,30 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package implement;
-
 
 import constants.Constant;
 import entity.Persona;
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashSet;
 
 public class PersonaImplementService {
 
-    private final BufferedReader br;
-    public final ArrayList<Persona> personas;
-
-    public PersonaImplementService() throws FileNotFoundException, IOException {
-        this.br = new BufferedReader(new FileReader(Constant.CSV));
-        this.personas = ingresarDatos(br);
-    }
-    
     public void datosIngresados(ArrayList<Persona> personas) {
         System.out.println("DATOS INGRESADOS\n");
         personas.stream().forEach(System.out::println);
